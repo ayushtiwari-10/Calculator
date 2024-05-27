@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+ }
+ body{
+    background-image: url("https://thumbs.dreamstime.com/z/top-view-flat-lay-style-travel-set-working-desk-computer-laptop-smart-phone-coffee-mug-glasses-notebook-lot-things-157684827.jpg");
+    background-size: cover;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+ }
+ .main{
+    width: 400px;
+    height: 450px;
+    background-color: rgb(110, 197, 210);
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 6px; 
+    margin-left: 30rem;
+ }
+ .main input[type='text'] {
+    width: 88%;
+    position: relative;
+    height: 80px;
+    top: 5px;
+    text-align: right;
+    padding: 3px 6px;
+    outline: none;
+    font-size: 40px;
+    border: 5px solid black;
+    display: flex;
+    margin: auto;
+    border-radius: 6px;
+    color: black;
+ }
+ .btn input[type='button']{
+    width:90px;
+    padding: 2px;
+    margin: 2px 0px;
+    position: relative;
+    left: 13px;
+    top: 20px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.5s;
+    background-color: #dde3e2;
+    border-radius: 6px;
+    color: rgb(2, 0, 0);
+ }
+ .btn input[type='button']:hover{
+    background-color: black;
+    color: white;
+ }
